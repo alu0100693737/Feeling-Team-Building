@@ -33,7 +33,6 @@ h5,
 h6 {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
 }
 
 hr.star-light,
@@ -89,22 +88,14 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-header #perfil {
-  height: 12%;
-  width: 15%;
-  border-radius: 0px 10px;
-  border: double #C1E1A6;
-}
 
 header .container {
-  padding-top: 5px;
   padding-bottom: 5px;
 }
 
 @keyframes cf3FadeInOut {
   0% {
     background-image: url("../img/background/fondo1.jpg");
-    opacity: 0.4;
   }
   8% {
     background-image: url("../img/background/fondo1.jpg");
@@ -147,7 +138,6 @@ header .container {
 }
 }
 
-
 hr {
   display: block;
   margin-top: 0.5em;
@@ -171,7 +161,17 @@ hr {
   border-bottom: solid 5px #585858;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 70;
+  font-size: 20px;
+}
+
+#eslogan {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:20px;
+  font-weight: 300;
+  padding: 10px;
+  padding-left: 0px;
+  background-color: rgba(0, 0, 0, .4);
 }
 
 #contacto {
@@ -323,11 +323,11 @@ section.success a.active {
 
 @media(max-width:767px) {
   section.first {
-    padding-top: 75px;
+    padding-top: 40px;
   }
 }
 #about {
-  background-color: rgba(12, 252, 156, 0.8);
+  background-color: rgba(215, 195, 146, 0.2);
   border-bottom: solid 5px #585858;
 }
 
