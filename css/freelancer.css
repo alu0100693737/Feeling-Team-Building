@@ -93,94 +93,38 @@ header .container {
   padding-bottom: 5px;
 }
 
-@keyframes movimientoImagen {
-  0% {
-
-  }
-  8% {
-
-  }
-  16% {
-    position: 200px 100px;
-  }
-  24% {
-}
-32% {
-
-}
-40% {
-
-}
-48% {
-
-}
-56% {
-
-}
-64% {
-
-}
-70%{
-
-}
-78% {
-
-
-}
-87% {
-
-}
-94% {
-
-
-}
-100% {
-
-}
-
-}
 @keyframes cf3FadeInOut {
   0% {
     background-image: url("../img/background/fondo1.jpg");
   }
-  8% {
+  10% {
     background-image: url("../img/background/fondo1.jpg");
   }
-  16% {
+  20% {
     background-image: url("../img/background/fondo2.jpg");
   }
-  24% {background-image: url("../img/background/fondo2.jpg");
+  30% {background-image: url("../img/background/fondo2.jpg");
 }
-32% {
+  40% {
+    background-image: url("../img/background/fondo3.jpg");
+}
+50% {
   background-image: url("../img/background/fondo3.jpg");
 }
-40% {
-  background-image: url("../img/background/fondo3.jpg");
-}
-48% {
+60% {
   background-image: url("../img/background/fondo4.jpg");
 }
-56% {background-image: url("../img/background/fondo4.jpg");
+70% {background-image: url("../img/background/fondo4.jpg");
 }
-64% {
+80% {
   background-image: url("../img/background/fondo5.jpg");
 }
-70%{
+90%{
   background-image: url("../img/background/fondo5.jpg");
-}
-78% {
-
-  background-image: url("../img/background/fondo6.jpg");
-}
-87% {
-  background-image: url("../img/background/fondo6.jpg");
-}
-94% {
-
-  background-image: url("../img/background/fondo7.jpg");
 }
 100% {
-  background-image: url("../img/background/fondo7.jpg");
+
+  background-image: url("../img/background/fondo1.jpg");
 }
 }
 
@@ -202,7 +146,7 @@ hr {
   animation-name: cf3FadeInOut;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
-  animation-duration:70s;
+  animation-duration:50s;
   animation-direction: alternate;
   border-bottom: solid 5px #585858;
   text-transform: uppercase;
@@ -217,18 +161,11 @@ hr {
   font-weight: 300;
   padding: 10px;
   margin-top: 100px;
+  margin-bottom: 50px;
   padding-left: 30px;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .6);
 }
 
-#feeling {
-  transition: all 0.1s ease-out;
-  animation-name: movimientoImagen;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-  animation-duration:70s;
-  animation-direction: alternate;
-}
 #contacto {
   text-align: center;
 }
@@ -319,7 +256,6 @@ section h2 {
 
 section.success {
   color: #fff;
-
 }
 
 section.success a,
