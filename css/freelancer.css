@@ -173,6 +173,9 @@ hr {
   font-size: 70;
 }
 
+#contacto {
+  text-align: center;
+}
 header .name:hover {
   color: #C1E1A6;
 }
@@ -323,7 +326,7 @@ section.success a.active {
   }
 }
 #about {
-  background-color: white;
+  background-color: rgba(12, 252, 156, 0.8);
   border-bottom: solid 5px #585858;
 }
 
